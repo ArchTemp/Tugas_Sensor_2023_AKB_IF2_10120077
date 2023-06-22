@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Aplikasi Resto</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="google_maps_api_key">AIzaSyAXt_Y6fp4tWobUbmjRYb9PrGxqeCcuKjI</string>
+    <string name="map_content_description">Tampilan peta untuk menampilkan lokasi restoran terdekat</string>
+
+</resources>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    tools:context=".InfoFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/tvTitle"
+            android:layout_width="382dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:gravity="center"
+            android:text="ABOUT APPS"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"
+            android:layout_marginBottom="16dp" />
+
+        <TextView
+            android:id="@+id/tvDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="RestoApp adalah sebuah aplikasi inovatif yang bertujuan untuk membantu Anda menemukan dan menjelajahi dunia kuliner dengan lebih mudah dan menyenangkan. Dengan fitur-fitur yang lengkap dan antarmuka yang intuitif, RestoApp memungkinkan Anda untuk menemukan restoran terbaik, melihat menu makanan yang disediakan, melakukan pemesanan online, dan bahkan membaca ulasan dari pengguna lainnya.
+Dengan RestoApp, Anda dapat dengan cepat mencari restoran berdasarkan lokasi, jenis masakan, atau kriteria lain yang Anda inginkan. Kami menyediakan informasi lengkap tentang setiap restoran, termasuk jam buka, alamat, nomor telepon, dan bahkan petunjuk arah yang dapat membantu Anda mencapai tujuan dengan mudah."
+            android:textSize="16sp"
+            android:textColor="@android:color/black"
+            android:lineSpacingExtra="8dp" />
+
+    </LinearLayout>
+
+</FrameLayout>
